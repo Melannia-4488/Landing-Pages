@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f9f2e4;
+  background-color: #f6e9d6;
 }
 /* Action Bar */
 .action-bar {
@@ -49,6 +49,11 @@ nav ul li a {
   font-weight: 900;
 }
 
+nav ul li a:hover {
+  color: #f2654a;
+  transition: 0.5s;
+}
+
 /* Hero */
 
 .hero {
@@ -85,6 +90,10 @@ nav ul li a {
   font-size: 20px;
   display: inline-block;
   text-align: center;
+}
+
+.btn-diets:hover {
+  background-color: #8cb446;
 }
 
 .hero-text p {
@@ -153,6 +162,12 @@ nav ul li a {
   border-radius: 10px;
 }
 
+.special-meals img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
 .special-meals figcaption {
   font-size: 22px;
   margin-top: 15px;
@@ -188,6 +203,10 @@ nav ul li a {
   padding: 12px 30px 12px 30px;
   border-radius: 25px;
   text-decoration: none;
+}
+
+.special-meals-btn a:hover {
+  background-color: #f7d7b8;
 }
 
 /* Service Quality */
@@ -309,10 +328,41 @@ hr {
 
 .article-Post figcaption {
   background-color: white;
+  padding: 25px 36px;
 }
 
 .article-Post figcaption a {
   text-decoration: none;
   font-size: 22px;
   color: #6e2a36;
+}
+
+.article-Post img:hover {
+}
+
+/* Browse the meals */
+
+.See-all-meals {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.See-all-meals h4 {
+  font-size: 22px;
+  color: #6e2a36;
+  padding-right: 200px;
+}
+
+.See-all-meals a {
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #f16449;
+  text-decoration: none;
+  background-color: #f4e0c9;
+  border-radius: 25px;
+}
+
+.See-all-meals a:hover {
+  background-color: #f7d7b8;
 }
